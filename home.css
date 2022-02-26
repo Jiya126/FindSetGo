@@ -18,6 +18,13 @@ header{
     border-bottom: 1px solid #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+header logo h3 {
+  color: white;
+  font-size: 40px;
+}
+header logo span{
+  color: #82D75A;
+}
 header ul li{
     list-style: none;
     display: inline-block ;
