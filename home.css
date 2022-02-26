@@ -18,11 +18,11 @@ header{
     border-bottom: 1px solid #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
-header logo h3 {
+header .logo h3 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
-header logo span{
+header .logo span{
   color: #82D75A;
 }
 header ul li{
