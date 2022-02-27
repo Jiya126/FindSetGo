@@ -1,6 +1,5 @@
 # FindsetGo
 
----
 
 ### Idea - Find a perfect sports buddy or partner near you. 
 
