@@ -1,7 +1,11 @@
-### FindsetGo
+# FindsetGo
+
 ---
-# Idea - find a perfect sports buddy or partner near you. 
+
+### Idea - find a perfect sports buddy or partner near you. 
+
 ---
+
 **Technology used is**
 * HTML
 * CSS
@@ -10,12 +14,16 @@
 * Node Js
 * Mango DB
 * Python
+
 ***
+
 **Team Details**
 * Team Code : d93ea3325c
 * Team Name : FindsetGo
 * IsFresher : False
+
 ***
+
 # Description of Idea
 * Idea : This website helps you find a perfect sports buddy or partner near you. Any partner you need on the go. Basically it’s a new age tinder for socializing. It's as easy as walking, as interesting as shopping.
 * Problem : As these days there's a lot of physical inactivity among the young adults, socializing is decreasing, introvert problems are increasing, in view of that, the website FindsetGo is made to help overcome these problems. 
