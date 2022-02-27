@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+  min-height: 100vh;
+  background: #fff;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_page1{
+  background: #F5F1F1;
+  min-height: 95%;
+  width: 80%;
+  border-radius: 0;
+  z-index: 2;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.profile_page1 .link:hover{
+    color: #fff;
+    cursor: pointer;
+}
+/* .profile_page2 .link:hover{
+    color: #fff;
+    cursor: pointer;
+} */
+
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #D47EA5;
+    justify-content: space-evenly;
+    border-radius: 0 15px 15px 0;
+    color: #6E3659;
+    padding: 100px auto;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user h4{
+    font-size: 20px;
+    padding: 20px 0 0 0;
+}
+.user img{
+    /* width: 100px; */
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center; 
+    text-align: center;
+}
+.link img{
+    color: #fff;
+    width: 26%;
+    padding: 0 16px 0 0;
+}
+.activity{
+    flex: 2;
+}
+.status{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+h1{
+    color: #6E3659;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.card h2{
+    font-weight: 800px;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+.card ul li{
+    font-family: Arial, sans-serif;
+    font-size: 130%;
+}
+
+.activity{
+    margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+.card{
+    margin: 1rem 0rem;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid black;
+}

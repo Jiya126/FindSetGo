@@ -9,7 +9,7 @@ html{
 }
 header{
     position: fixed;
-    background-color: #5A2726;
+    background-color: #BD4585;
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     border-bottom: 1px solid #fff;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
 }
 header .logo h3 {
   color: #fff;
@@ -24,6 +25,9 @@ header .logo h3 {
 }
 header .logo span{
   color: #82D75A;
+}
+header #navbar{
+    display: none;
 }
 header ul li{
     list-style: none;
@@ -39,7 +43,7 @@ header ul li a{
     font-size: 17px;
 }
 header ul li a:hover{
-    color: bisque;
+    color: #6E3659;
 }
 .content{
     align-items: center;
@@ -48,19 +52,15 @@ header ul li a:hover{
     justify-content: center;
     padding: 100px 100px 0;
     height: 100vh;
-    background-color: #5A2726;
+    background-color: #D47EA5;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 .text{
-    
     font-size: 30px;
-    color: #fff;
+    color: #6E3659;
     padding: 0px 50px 50px 50px ;
-    
 }
 .text a{
-    /* position: relative; */
     display: block;
     font-size: 30px;
     text-transform: uppercase;
@@ -79,13 +79,13 @@ header ul li a:hover{
 }
 .btn2{
     border: none;
-    background-color: #491E1D;
+    background-color: #6E3659;
     width: 50%;
     text-align: center;
     transition: ease-out 0.3s;
 }
 .text a:hover{
-    color: #491E1D;
+    color: #6E3659;
     background: #fff;
 }
 .about_us{
@@ -100,6 +100,9 @@ header ul li a:hover{
     font-family: 'Raleway', sans-serif;
     align-items: center;
 }
+.heading_page2 h2{
+    color: #6E3659;
+}
 .content_page2{
     width:100%;
     display: flex;
@@ -108,7 +111,7 @@ header ul li a:hover{
     align-items: center;
     padding: 0 6rem 0 6rem;
     padding-bottom: 6rem;
-    border-bottom: 2px solid #5A2726;
+    border-bottom: 2px solid #F5F1F1;
 }
 .text_page2{
     font-size: 25px;
@@ -129,7 +132,7 @@ header ul li a:hover{
 }
 .page_3 .paragraph{
     font-family: 'Raleway', sans-serif;
-    color: #5A2726;
+    color: #6E3659;
     font-size: 1.5rem;
     font-weight: 1000;
 }
@@ -137,6 +140,7 @@ header ul li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4rem;
     font-weight: 200;
+    color: #6E3659;
 }
 .container{
     display: flex;
@@ -162,10 +166,10 @@ header ul li a:hover{
 .box1:hover,
 .box2:hover,
 .box3:hover{
-background-color: #5a2726a9;
+background-color: #D47EA5;
 }
 .page_4{
-    background-color: #5A2726;
+    background-color: #D47EA5;
 }
 .contact{
     text-align: center;
@@ -173,7 +177,7 @@ background-color: #5a2726a9;
     font-size: 70px;
     font-family: 'Raleway', sans-serif;
     align-items: center;
-    color: #fff;
+    color: #6E3659;
 }
 .content_page4{
     width:100%;
@@ -187,13 +191,13 @@ background-color: #5a2726a9;
 .text_page4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: #fff;
+    color: #6E3659;
 }
 .footer{
     width: 100%;
     height: auto;
     margin: auto;
-    background: #fff;
+    background: #6E3659;
 }
 .social{
     text-align: center;
@@ -209,4 +213,84 @@ background-color: #5a2726a9;
     border-radius: 50%;
     background-color: #C4C4C4;
     margin: 40px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    img{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header ul li a{
+        font-size: 15px;
+    }
+
+
+    .content{
+        display: block;
+        position: relative;
+    }
+    .text{
+        font-size: 20px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .text h1{
+        display: block;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .text a{
+        display: block;
+        margin: 40px;
+      
+        text-align: center;
+    }
+    .btn{
+        position: absolute;
+        top: 490px;
+        width: 70%;
+    }
+    .btn2{
+        position: absolute;
+        bottom: -16px;
+        width: 70%;
+    }
+    .content .img{
+        display: block;
+        width: 65%;
+        margin: 30px auto;
+    }
+
+
+    .content_page2{
+        display: block;
+    }
+    .text_page2{
+        width: 100%;
+    }
+    .img_page2{
+        height: 55vh;
+        padding-top: 55px;
+    }
+
+    .content_page4{
+        flex-direction: column;
+    }
+    iframe{
+        margin-top: 60px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    header #navbar{
+        display: block;
+        color: #fff;
+    }
+    header ul{
+        display: none;
+    }
 }
