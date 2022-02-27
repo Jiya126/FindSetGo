@@ -2,7 +2,7 @@
 
 ---
 
-### Idea - find a perfect sports buddy or partner near you. 
+### Idea - Find a perfect sports buddy or partner near you. 
 
 ---
 
