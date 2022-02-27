@@ -54,6 +54,20 @@ button {
 	transition: transform 80ms ease-in;
 }
 
+.btn{
+	border-radius: 16px;
+	border: 1px solid #6E3659;
+	background-color: #6E3659;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 14px 42px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+
+}
+
 button:active {
 	transform: scale(0.95);
 }

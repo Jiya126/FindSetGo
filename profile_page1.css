@@ -57,6 +57,11 @@ main{
     border-radius: 50%;
     padding-top: 20px;
 }
+.user a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
 .link{
     display: flex;
     margin: 2rem 0rem;
@@ -69,6 +74,11 @@ main{
     width: 26%;
     padding: 0 16px 0 0;
 }
+.link a{
+    text-decoration: none;
+    color: #6E3659;
+  }
+
 .activity{
     flex: 2;
 }

@@ -1,55 +1,82 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-}
-main{
-  
+  }
+  main{
   min-height: 100vh;
-  background: #5a27269f;    
+  background: #fff;    
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-.profile_page3{
-    background: white;
-    min-height: 90vh;
-    width: 80%;
-    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
-    border-radius: 2rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
-    display: flex;
-    
   }
+  .profile_page3{
+  background: #F5F1F1;
+  min-height: 95%;
+  width: 80%;
+  border-radius: 0;
+  z-index: 2;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  }
+  
+  .profile_page3 .link:hover{
+    color: #fff;
+    cursor: pointer;
+  }
+  
   .dashboard{
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #5a2726;
+    background: #D47EA5;
     justify-content: space-evenly;
-    border-radius: 2rem;
-    
+    border-radius: 0 15px 15px 0;
+    color: #6E3659;
+    padding: 100px auto;
+  }
+  .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .user h4{
+    font-size: 20px;
+    padding: 20px 0 0 0;
+  }
+  .user a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
 }
-.link{
+  .user img{
+    /* width: 100px; */
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 20px;
+  }
+  .link{
     display: flex;
     margin: 2rem 0rem;
     padding: 1rem 5rem;
     align-items: center; 
     text-align: center;
-
-}
-
-.user{
-    text-align: center;
-    color: rgba(255, 255, 255, 0.637);
-}
-.link{
-    color: rgba(255, 255, 255, 0.562);
-}
+  }
+  .link img{
+    color: #fff;
+    width: 26%;
+    padding: 0 16px 0 0;
+  }
+  .link a{
+    text-decoration: none;
+    color: #6E3659;
+  }
 .interests{
     flex: 2;
 }
@@ -65,8 +92,15 @@ h3{
     padding: 60px;
     text-align: center;
 }
+
+h1{
+    color: #6E3659;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
 .buttons{
-    /* text-align: center; */
+    text-align: center;
     padding: 30px;
     /* margin: 20px; */
     
@@ -78,16 +112,15 @@ h3{
     margin: 40px;
     border-radius: 100px;
     border: 1px;
-    background-color: #491E1D;
-    color: #fff;
     letter-spacing: 2px;
     text-align: center;
     cursor: pointer;
     transition: 0.2s;
+    background-color: #D47EA5;
 }
 .btn:hover{
     color:bisque;
-    background-color: #5a2726e0;
+    background-color: #6E3659;
 }
 .btn:active{
     transform: scale(0.98);
